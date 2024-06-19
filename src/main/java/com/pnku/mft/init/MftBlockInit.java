@@ -14,7 +14,6 @@ import java.util.List;
 public class MftBlockInit {
     public static final MoreFletchingTablesBlock OAK_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.OAK_TAN, "oak");
     public static final MoreFletchingTablesBlock SPRUCE_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.SPRUCE_BROWN, "spruce");
-    public static final MoreFletchingTablesBlock BIRCH_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.PALE_YELLOW, "birch");
     public static final MoreFletchingTablesBlock JUNGLE_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.DIRT_BROWN, "jungle");
     public static final MoreFletchingTablesBlock ACACIA_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.ORANGE, "acacia");
     public static final MoreFletchingTablesBlock DARK_OAK_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.BROWN, "dark_oak");
@@ -30,7 +29,6 @@ public class MftBlockInit {
     public static void registerBlocks() {
         registerBlock(OAK_FLETCHING_TABLE);
         registerBlock(SPRUCE_FLETCHING_TABLE);
-        registerBlock(BIRCH_FLETCHING_TABLE);
         registerBlock(JUNGLE_FLETCHING_TABLE);
         registerBlock(ACACIA_FLETCHING_TABLE);
         registerBlock(DARK_OAK_FLETCHING_TABLE);

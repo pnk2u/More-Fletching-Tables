@@ -13,7 +13,6 @@ import net.minecraft.registry.Registry;
 public class MftItemInit {
     public static final BlockItem OAK_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.OAK_FLETCHING_TABLE, new Item.Settings());
     public static final BlockItem SPRUCE_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.SPRUCE_FLETCHING_TABLE, new Item.Settings());
-    public static final BlockItem BIRCH_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.BIRCH_FLETCHING_TABLE, new Item.Settings());
     public static final BlockItem JUNGLE_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.JUNGLE_FLETCHING_TABLE, new Item.Settings());
     public static final BlockItem ACACIA_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.ACACIA_FLETCHING_TABLE, new Item.Settings());
     public static final BlockItem DARK_OAK_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.DARK_OAK_FLETCHING_TABLE, new Item.Settings());
@@ -27,8 +26,7 @@ public class MftItemInit {
     public static void registerItems() {
         registerItem(OAK_FLETCHING_TABLE_I, Items.FLETCHING_TABLE);
         registerItem(SPRUCE_FLETCHING_TABLE_I, OAK_FLETCHING_TABLE_I);
-        registerItem(BIRCH_FLETCHING_TABLE_I, SPRUCE_FLETCHING_TABLE_I);
-        registerItem(JUNGLE_FLETCHING_TABLE_I, BIRCH_FLETCHING_TABLE_I);
+        registerItem(JUNGLE_FLETCHING_TABLE_I, SPRUCE_FLETCHING_TABLE_I);
         registerItem(ACACIA_FLETCHING_TABLE_I, JUNGLE_FLETCHING_TABLE_I);
         registerItem(DARK_OAK_FLETCHING_TABLE_I, ACACIA_FLETCHING_TABLE_I);
         registerItem(MANGROVE_FLETCHING_TABLE_I, DARK_OAK_FLETCHING_TABLE_I);
