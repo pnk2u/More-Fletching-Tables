@@ -1,13 +1,15 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_lots_of_items": {
+    "has_flint": {
       "conditions": {
-        "slots": {
-          "occupied": {
-            "min": 10
+        "items": [
+          {
+            "items": [
+              "minecraft:flint"
+            ]
           }
-        }
+        ]
       },
       "trigger": "minecraft:inventory_changed"
     },
@@ -32,7 +34,7 @@
   },
   "requirements": [
     [
-      "has_lots_of_items",
+      "has_flint",
       "has_the_recipe"
     ],
     [

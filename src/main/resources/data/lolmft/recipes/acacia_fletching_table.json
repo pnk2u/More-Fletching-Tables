@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "fletchingtable",
   "key": {
     "#": {
       "item": "minecraft:acacia_planks"
@@ -16,6 +17,6 @@
   ],
   "result": {
     "count": 1,
-    "item": "lolmft:acacia_fletching_table"
+    "id": "lolmft:acacia_fletching_table"
   }
 }
