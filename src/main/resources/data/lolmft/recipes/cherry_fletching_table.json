@@ -1,6 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "fletchingtable",
   "key": {
     "#": {
       "item": "minecraft:cherry_planks"
@@ -16,6 +17,6 @@
   ],
   "result": {
     "count": 1,
-    "item": "lolmft:cherry_fletching_table"
+    "id": "lolmft:cherry_fletching_table"
   }
 }
