@@ -1,9 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "fletchingtable",
   "key": {
     "#": {
-      "item": "minecraft:mangrove_planks"
+      "item": "minecraft:cherry_planks"
     },
     "@": {
       "item": "minecraft:flint"
@@ -16,6 +17,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "lolmft:mangrove_fletching_table"
+    "id": "lolmft:cherry_fletching_table"
   }
 }

@@ -1,9 +1,10 @@
 {
   "type": "minecraft:crafting_shaped",
   "category": "misc",
+  "group": "fletchingtable",
   "key": {
     "#": {
-      "item": "minecraft:bamboo_planks"
+      "item": "minecraft:birch_planks"
     },
     "@": {
       "item": "minecraft:flint"
@@ -16,6 +17,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "lolmft:bamboo_fletching_table"
+    "id": "minecraft:fletching_table"
   }
 }
