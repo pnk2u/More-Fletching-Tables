@@ -1,0 +1,74 @@
+{
+  "values": [
+    {
+      "structures": "#quad:is/oak",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:oak_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/spruce",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:spruce_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/birch",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:birch_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/jungle",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:jungle_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/acacia",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:acacia_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/mangrove",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:mangrove_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/cherry",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:cherry_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/bamboo",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:bamboo_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/crimson",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:crimson_fletching_table"
+      }
+    },
+    {
+      "structures": "#quad:is/warped",
+      "block_replacement": {
+        "targets": "minecraft:fletching_table",
+        "replacement": "lolmft:warped_fletching_table"
+      }
+    }
+  ]
+}
