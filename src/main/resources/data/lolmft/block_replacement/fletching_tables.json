@@ -15,10 +15,10 @@
       }
     },
     {
-      "structures": "#quad:is/birch",
+      "structures": "#quad:is/dark_oak",
       "block_replacement": {
         "targets": "minecraft:fletching_table",
-        "replacement": "lolmft:birch_fletching_table"
+        "replacement": "lolmft:dark_oak_fletching_table"
       }
     },
     {
