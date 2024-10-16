@@ -5,23 +5,35 @@ import com.pnku.mft.block.MoreFletchingTablesBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 
-public class MftItemInit {
-    public static final BlockItem OAK_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.OAK_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem SPRUCE_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.SPRUCE_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem JUNGLE_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.JUNGLE_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem ACACIA_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.ACACIA_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem DARK_OAK_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.DARK_OAK_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem MANGROVE_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.MANGROVE_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem CHERRY_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.CHERRY_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem BAMBOO_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.BAMBOO_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem CRIMSON_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.CRIMSON_FLETCHING_TABLE, new Item.Properties());
-    public static final BlockItem WARPED_FLETCHING_TABLE_I = new BlockItem(MftBlockInit.WARPED_FLETCHING_TABLE, new Item.Properties());
+import static com.pnku.mft.init.MftBlockInit.*;
 
+public class MftItemInit {
+    public static final BlockItem OAK_FLETCHING_TABLE_I = itemFromBlock(OAK_FLETCHING_TABLE);
+    public static final BlockItem SPRUCE_FLETCHING_TABLE_I = itemFromBlock(SPRUCE_FLETCHING_TABLE);
+    public static final BlockItem JUNGLE_FLETCHING_TABLE_I = itemFromBlock(JUNGLE_FLETCHING_TABLE);
+    public static final BlockItem ACACIA_FLETCHING_TABLE_I = itemFromBlock(ACACIA_FLETCHING_TABLE);
+    public static final BlockItem DARK_OAK_FLETCHING_TABLE_I = itemFromBlock(DARK_OAK_FLETCHING_TABLE);
+    public static final BlockItem MANGROVE_FLETCHING_TABLE_I = itemFromBlock(MANGROVE_FLETCHING_TABLE);
+    public static final BlockItem CHERRY_FLETCHING_TABLE_I = itemFromBlock(CHERRY_FLETCHING_TABLE);
+    public static final BlockItem BAMBOO_FLETCHING_TABLE_I = itemFromBlock(BAMBOO_FLETCHING_TABLE);
+    public static final BlockItem CRIMSON_FLETCHING_TABLE_I = itemFromBlock(CRIMSON_FLETCHING_TABLE);
+    public static final BlockItem WARPED_FLETCHING_TABLE_I = itemFromBlock(WARPED_FLETCHING_TABLE);
+
+    public static BlockItem itemFromBlock(MoreFletchingTablesBlock moreFletchingTableBlock) {
+        return new BlockItem(moreFletchingTableBlock, setProperties(moreFletchingTableBlock));
+    }
+
+    public static Item.Properties setProperties(MoreFletchingTablesBlock moreFletchingTableBlock) {
+        return new Item.Properties()
+                .setId(ResourceKey.create(Registries.ITEM,BuiltInRegistries.BLOCK.getKey(moreFletchingTableBlock))).useBlockDescriptionPrefix();
+    }
 
     public static void registerItems() {
         registerItem(OAK_FLETCHING_TABLE_I, Items.FLETCHING_TABLE);
