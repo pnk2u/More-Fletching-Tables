@@ -1,4 +1,4 @@
-package com.pnku.mft.block;
+package de.pnku.mft.block;
 
 import com.pnku.mft.MoreFletchingTables;
 import net.minecraft.core.registries.Registries;
