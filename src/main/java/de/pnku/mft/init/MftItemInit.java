@@ -12,7 +12,7 @@ import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 
-import static com.pnku.mft.init.MftBlockInit.*;
+import static de.pnku.mft.init.MftBlockInit.*;
 
 public class MftItemInit {
     public static final BlockItem OAK_FLETCHING_TABLE_I = itemFromBlock(OAK_FLETCHING_TABLE);

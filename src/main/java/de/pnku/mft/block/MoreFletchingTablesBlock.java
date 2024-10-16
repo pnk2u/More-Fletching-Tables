@@ -1,6 +1,6 @@
 package de.pnku.mft.block;
 
-import com.pnku.mft.MoreFletchingTables;
+import de.pnku.mft.MoreFletchingTables;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.world.level.block.Blocks;
