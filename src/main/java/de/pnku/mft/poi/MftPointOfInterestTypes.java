@@ -21,9 +21,9 @@ public class MftPointOfInterestTypes {
                 .getPointOfInterestStatesToType();
 
         Holder<PoiType> fletcherEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
-                .getHolder(PoiTypes.FLETCHER).get();
+                .get(PoiTypes.FLETCHER).get();
 
-        PoiType fletcherPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.FLETCHER);
+        PoiType fletcherPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.getValue(PoiTypes.FLETCHER);
 
         List<BlockState> fletcherBlockStates = new ArrayList<BlockState>(fletcherPoiType.matchingStates);
 
