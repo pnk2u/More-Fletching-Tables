@@ -1,8 +1,8 @@
-package com.pnku.mft;
+package de.pnku.mft;
 
-import com.pnku.mft.init.MftBlockInit;
-import com.pnku.mft.init.MftItemInit;
-import com.pnku.mft.poi.MftPointOfInterestTypes;
+import de.pnku.mft.init.MftBlockInit;
+import de.pnku.mft.init.MftItemInit;
+import de.pnku.mft.poi.MftPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.resources.ResourceLocation;
 

@@ -1,9 +1,9 @@
-package com.pnku.mft.poi;
+package de.pnku.mft.poi;
 
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
-import com.pnku.mft.init.MftBlockInit;
-import com.pnku.mft.mixin.PoiTypesAccessor;
+import de.pnku.mft.init.MftBlockInit;
+import de.pnku.mft.mixin.PoiTypesAccessor;
 import net.minecraft.core.Holder;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.world.entity.ai.village.poi.PoiType;

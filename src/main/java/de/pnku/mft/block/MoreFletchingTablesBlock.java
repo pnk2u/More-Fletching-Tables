@@ -1,4 +1,4 @@
-package com.pnku.mft.block;
+package de.pnku.mft.block;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FletchingTableBlock;

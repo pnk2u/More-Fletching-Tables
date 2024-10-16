@@ -1,7 +1,7 @@
-package com.pnku.mft.init;
+package de.pnku.mft.init;
 
-import com.pnku.mft.MoreFletchingTables;
-import com.pnku.mft.block.MoreFletchingTablesBlock;
+import de.pnku.mft.MoreFletchingTables;
+import de.pnku.mft.block.MoreFletchingTablesBlock;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
