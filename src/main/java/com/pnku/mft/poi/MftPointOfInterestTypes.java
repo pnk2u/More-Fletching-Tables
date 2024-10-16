@@ -3,13 +3,13 @@ package com.pnku.mft.poi;
 import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableSet;
 import com.pnku.mft.init.MftBlockInit;
-import com.pnku.mft.mixin.PointOfInterestTypesAccessor;
-import net.minecraft.block.Block;
-import net.minecraft.block.BlockState;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.entry.RegistryEntry;
-import net.minecraft.world.poi.PointOfInterestType;
-import net.minecraft.world.poi.PointOfInterestTypes;
+import com.pnku.mft.mixin.PoiTypesAccessor;
+import net.minecraft.core.Holder;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.world.entity.ai.village.poi.PoiType;
+import net.minecraft.world.entity.ai.village.poi.PoiTypes;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockState;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -17,18 +17,18 @@ import java.util.Map;
 
 public class MftPointOfInterestTypes {
     public static void init() {
-        Map<BlockState, RegistryEntry<PointOfInterestType>> poiStatesToType = PointOfInterestTypesAccessor
+        Map<BlockState, Holder<PoiType>> poiStatesToType = PoiTypesAccessor
                 .getPointOfInterestStatesToType();
 
-        RegistryEntry<PointOfInterestType> fletcherEntry = Registries.POINT_OF_INTEREST_TYPE
-                .getEntry(PointOfInterestTypes.FLETCHER).get();
+        Holder<PoiType> fletcherEntry = BuiltInRegistries.POINT_OF_INTEREST_TYPE
+                .getHolder(PoiTypes.FLETCHER).get();
 
-        PointOfInterestType fletcherPoiType = Registries.POINT_OF_INTEREST_TYPE.get(PointOfInterestTypes.FLETCHER);
+        PoiType fletcherPoiType = BuiltInRegistries.POINT_OF_INTEREST_TYPE.get(PoiTypes.FLETCHER);
 
-        List<BlockState> fletcherBlockStates = new ArrayList<BlockState>(fletcherPoiType.blockStates);
+        List<BlockState> fletcherBlockStates = new ArrayList<BlockState>(fletcherPoiType.matchingStates);
 
         for (Block block : MftBlockInit.more_fletching_tables) {
-            ImmutableList<BlockState> blockStates = block.getStateManager().getStates();
+            ImmutableList<BlockState> blockStates = block.getStateDefinition().getPossibleStates();
 
             for (BlockState blockState : blockStates) {
                 poiStatesToType.putIfAbsent(blockState, fletcherEntry);
@@ -37,6 +37,6 @@ public class MftPointOfInterestTypes {
             fletcherBlockStates.addAll(blockStates);
         }
 
-        fletcherPoiType.blockStates = ImmutableSet.copyOf(fletcherBlockStates);
+        fletcherPoiType.matchingStates = ImmutableSet.copyOf(fletcherBlockStates);
     }
 }
