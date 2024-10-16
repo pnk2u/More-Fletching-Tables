@@ -4,7 +4,7 @@ import com.pnku.mft.init.MftBlockInit;
 import com.pnku.mft.init.MftItemInit;
 import com.pnku.mft.poi.MftPointOfInterestTypes;
 import net.fabricmc.api.ModInitializer;
-import net.minecraft.util.Identifier;
+import net.minecraft.resources.ResourceLocation;
 
 public class MoreFletchingTables implements ModInitializer {
     public static final String MODID = "lolmft";
@@ -16,7 +16,7 @@ public class MoreFletchingTables implements ModInitializer {
         MftPointOfInterestTypes.init();
     }
 
-    public static Identifier asId(String path) {
-        return Identifier.of(MODID, path);
+    public static ResourceLocation asId(String path) {
+        return new ResourceLocation(MODID, path);
     }
 }
