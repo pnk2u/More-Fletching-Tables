@@ -3,12 +3,8 @@
   "category": "misc",
   "group": "fletchingtable",
   "key": {
-    "#": {
-      "item": "minecraft:oak_planks"
-    },
-    "@": {
-      "item": "minecraft:flint"
-    }
+    "#": "minecraft:oak_planks",
+    "@": "minecraft:flint"
   },
   "pattern": [
     "@@",
