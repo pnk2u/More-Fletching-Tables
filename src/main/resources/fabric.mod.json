@@ -8,7 +8,8 @@
 		"${mod_authors}"
 	],
 	"contact": {
-		"homepage": "https://lieonlion.github.io/LieOnLion/",
+		"email": "contact@pnku.de",
+		"homepage": "https://pnku.de",
 		"sources": "https://github.com/pnk2u/More-Fletching-Tables",
 		"issues": "https://github.com/pnk2u/More-Fletching-Tables/issues"
 	},
@@ -17,7 +18,7 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-          "com.pnku.mft.MoreFletchingTables"
+			"de.pnku.mft.MoreFletchingTables"
 		]
 	},
 	"mixins": [
