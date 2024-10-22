@@ -10,12 +10,12 @@ public class MoreFletchingTablesBlock extends FletchingTableBlock {
     public final String fletchingtableType;
 
     public MoreFletchingTablesBlock(MapColor colour, String fletchingtableType) {
-        super(Properties.ofFullCopy(Blocks.FLETCHING_TABLE).mapColor(colour));
+        super(Properties.copy(Blocks.FLETCHING_TABLE).mapColor(colour));
         this.fletchingtableType = fletchingtableType;
     }
 
     public MoreFletchingTablesBlock(MapColor colour, SoundType soundType, String fletchingtableType) {
-        super(Properties.ofFullCopy(Blocks.FLETCHING_TABLE).mapColor(colour).sound(soundType));
+        super(Properties.copy(Blocks.FLETCHING_TABLE).mapColor(colour).sound(soundType));
         this.fletchingtableType = fletchingtableType;
     }
 }
