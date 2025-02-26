@@ -20,6 +20,7 @@ public class MftItemInit {
     public static final BlockItem JUNGLE_FLETCHING_TABLE_I = itemFromBlock(JUNGLE_FLETCHING_TABLE);
     public static final BlockItem ACACIA_FLETCHING_TABLE_I = itemFromBlock(ACACIA_FLETCHING_TABLE);
     public static final BlockItem DARK_OAK_FLETCHING_TABLE_I = itemFromBlock(DARK_OAK_FLETCHING_TABLE);
+    public static final BlockItem PALE_OAK_FLETCHING_TABLE_I = itemFromBlock(PALE_OAK_FLETCHING_TABLE);
     public static final BlockItem MANGROVE_FLETCHING_TABLE_I = itemFromBlock(MANGROVE_FLETCHING_TABLE);
     public static final BlockItem CHERRY_FLETCHING_TABLE_I = itemFromBlock(CHERRY_FLETCHING_TABLE);
     public static final BlockItem BAMBOO_FLETCHING_TABLE_I = itemFromBlock(BAMBOO_FLETCHING_TABLE);
@@ -41,7 +42,8 @@ public class MftItemInit {
         registerItem(JUNGLE_FLETCHING_TABLE_I, SPRUCE_FLETCHING_TABLE_I);
         registerItem(ACACIA_FLETCHING_TABLE_I, JUNGLE_FLETCHING_TABLE_I);
         registerItem(DARK_OAK_FLETCHING_TABLE_I, ACACIA_FLETCHING_TABLE_I);
-        registerItem(MANGROVE_FLETCHING_TABLE_I, DARK_OAK_FLETCHING_TABLE_I);
+        registerItem(PALE_OAK_FLETCHING_TABLE_I, DARK_OAK_FLETCHING_TABLE_I);
+        registerItem(MANGROVE_FLETCHING_TABLE_I, PALE_OAK_FLETCHING_TABLE_I);
         registerItem(CHERRY_FLETCHING_TABLE_I, MANGROVE_FLETCHING_TABLE_I);
         registerItem(BAMBOO_FLETCHING_TABLE_I, CHERRY_FLETCHING_TABLE_I);
         registerItem(CRIMSON_FLETCHING_TABLE_I, BAMBOO_FLETCHING_TABLE_I);

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "fletchingtable",
+  "key": {
+    "#": "minecraft:pale_oak_planks",
+    "@": "minecraft:flint"
+  },
+  "pattern": [
+    "@@",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "id": "lolmft:pale_oak_fletching_table"
+  }
+}

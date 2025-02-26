@@ -17,6 +17,7 @@ public class MftBlockInit {
     public static final MoreFletchingTablesBlock JUNGLE_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.DIRT, "jungle");
     public static final MoreFletchingTablesBlock ACACIA_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.COLOR_ORANGE, "acacia");
     public static final MoreFletchingTablesBlock DARK_OAK_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.COLOR_BROWN, "dark_oak");
+    public static final MoreFletchingTablesBlock PALE_OAK_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.QUARTZ, "pale_oak");
     public static final MoreFletchingTablesBlock MANGROVE_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.COLOR_RED, "mangrove");
     public static final MoreFletchingTablesBlock CHERRY_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.TERRACOTTA_WHITE, SoundType.CHERRY_WOOD, "cherry");
     public static final MoreFletchingTablesBlock BAMBOO_FLETCHING_TABLE = new MoreFletchingTablesBlock(MapColor.COLOR_YELLOW, SoundType.BAMBOO_WOOD, "bamboo");
@@ -32,6 +33,7 @@ public class MftBlockInit {
         registerBlock(JUNGLE_FLETCHING_TABLE);
         registerBlock(ACACIA_FLETCHING_TABLE);
         registerBlock(DARK_OAK_FLETCHING_TABLE);
+        registerBlock(PALE_OAK_FLETCHING_TABLE);
         registerBlock(MANGROVE_FLETCHING_TABLE);
         registerBlock(CHERRY_FLETCHING_TABLE);
         registerBlock(BAMBOO_FLETCHING_TABLE);
