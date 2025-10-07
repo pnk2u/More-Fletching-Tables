@@ -15,7 +15,7 @@ version = "${mod_version}+${mc_version_name()}-Fabric"
 group = project.mod_group_id
 
 base {
-	archivesName = mod_comp_name
+	archivesName = archives_base_name
 }
 
 repositories {
