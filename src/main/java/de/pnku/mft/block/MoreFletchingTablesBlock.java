@@ -3,13 +3,13 @@ package de.pnku.mft.block;
 import de.pnku.mft.MoreFletchingTables;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.FletchingTableBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.material.MapColor;
 
 
-public class MoreFletchingTablesBlock extends FletchingTableBlock {
+public class MoreFletchingTablesBlock extends Block {
     public final String fletchingtableType;
 
     public MoreFletchingTablesBlock(MapColor colour, String fletchingtableType) {
