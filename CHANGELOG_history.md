@@ -1,3 +1,5 @@
+### 1.8.3:
+- `1.21.4(-10)`: Update to 1.21.9(10)
 ### 1.8.2:
 - `1.21(.1)`, `1.21.4`: Fix _Visual Workbenches_ compatibility issue that cause Villagers not being able to recognize the Fletching Table variants
 ### 1.8.1:
