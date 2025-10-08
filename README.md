@@ -1,7 +1,7 @@
 # <img width='24' src="./src/main/resources/icon.png"> More Fletching Tables
-> ![Mod Icon](https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Bed-Variants/pres/logo/logo_c.png)
+> ![Mod Icon](https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Fletching-Tables/pres/logo/logo_c.png)
 >
-> A mod adding wood variants for Minecraft's Beds and enhancing their way of being rendered allowing for additional resourcepack capabilities and improved performance.
+> A simple mod adding wood variants for Minecraft's Fletching Table Blocks.
 
 ### Compatibility
 
