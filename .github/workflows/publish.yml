@@ -2,6 +2,8 @@ name: publish
 
 on:
   push:
+    paths:
+      - CHANGELOG.md
 
 jobs:
   build:
