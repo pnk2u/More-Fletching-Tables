@@ -4,6 +4,7 @@
     {
       "id": "#lieonstudio:fletching_tables",
       "required": false
-    }
+    },
+    "minecraft:fletching_table"
   ]
 }
