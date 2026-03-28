@@ -1,0 +1,13 @@
+name: publish
+
+on:
+  push:
+    paths:
+      - CHANGELOG.md
+
+jobs:
+  build:
+    uses: pnk2u/.github/.github/workflows/publish.yml@main
+    secrets:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+      CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
