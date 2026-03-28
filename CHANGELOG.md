@@ -1,4 +1,4 @@
-<!--publish=true-->
+<!--publish = true-->
 ### 1.8.4:
 - `26.1`: Update to <ins>26.1</ins>
 
