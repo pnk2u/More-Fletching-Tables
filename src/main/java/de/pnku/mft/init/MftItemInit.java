@@ -2,7 +2,7 @@ package de.pnku.mft.init;
 
 import de.pnku.mft.MoreFletchingTables;
 import de.pnku.mft.block.MoreFletchingTablesBlock;
-import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -53,6 +53,6 @@ public class MftItemInit {
     private static void registerItem(BlockItem fletchingTable, Item fletchingTableAfter) {
         Registry.register(BuiltInRegistries.ITEM, MoreFletchingTables.asId(((MoreFletchingTablesBlock) fletchingTable.getBlock()).fletchingtableType + "_fletching_table"), fletchingTable);
 
-        ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.addAfter(fletchingTableAfter, fletchingTable));
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.FUNCTIONAL_BLOCKS).register(entries -> entries.insertAfter(fletchingTableAfter, fletchingTable));
     }
 }
