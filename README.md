@@ -1,61 +1,89 @@
-# <img width='24' src="./src/main/resources/icon.png"> More Fletching Tables
-> ![Mod Icon](https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Fletching-Tables/pres/logo/logo_c.png)
->
-> A simple mod adding wood variants for Minecraft's Fletching Table Blocks.
+<a name="more-fletching-tables"></a>
+# <img height='48' align=right src="./src/main/resources/icon.png"> <p align="center">&emsp;&emsp;&emsp; More Fletching Tables <sub><a title="More Fletching Tables on Modrinth" href="https://www.modrinth.com/mod/more-fletching-tables"><img width="40" src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a></sub> <a title="More Fletching Tables on Curseforge" href="https://www.curseforge.com/minecraft/mc-mods/more-fletching-tables"><sub><img width="40" src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></sub></a> </p>
+> <img align=left height="153" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Fletching-Tables/pres/logo/logo_c.png">  
+>  A mod adding wood variants for Minecraft's Fletching Table. <br><br><br><br>  
+> <br>  
+> <br>  
+>  <!--<details><summary><h5>Show in-game example image</h5></summary><br><img src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/More-Fletching-Tables/pres/mr_mini_banner.gif"><sup><br></sup></details>-->
+<br>
 
-### Compatibility
+<a name="compatibility"></a>
+### <img height="24" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/puzzle.svg"> Compatibility
 
-- Minecraft: `1.20.1`, `1.21(.1)`, `1.21.4`~`1.21.10`
-- Mod Loader: _Fabric_
-- Requires: [`Fabric API`](https://modrinth.com/mod/fabric-api)
+<table>
+  <thead>
+    <tr>
+      <td><strong>Minecraft</strong></td>
+      <td>
+        <a href="https://modrinth.com/mod/more-fletching-tables/versions?g=1.20.1"><code>1.20.1</code></a><br>
+        <a href="https://modrinth.com/mod/more-fletching-tables/versions?g=1.21&g=1.21.1"><code>1.21(.1)</code></a>, <a href="https://modrinth.com/mod/more-fletching-tables/versions?g=1.21.4&g=1.21.5&g=1.21.6&g=1.21.7&g=1.21.8&g=1.21.9&g=1.21.10?g=1.21.11"><code>1.21.4</code>~<code>1.21.11</code></a><br>
+        <a href="https://modrinth.com/mod/more-fletching-tables/versions?g=26.1"><code>26.1</code></a>
+      </td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Mod Loaders</strong></td>
+      <td><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/1.21.10/src/main/resources/assets/fabric/icon.png"></sub><a href="https://fabricmc.net/use/installer/"><code>Fabric Loader</code></a></td>
+    </tr>
+  </tbody>
+  <thead>
+    <tr>
+      <td><strong>Requires</strong></td>
+      <td>
+        <a href="https://modrinth.com/mod/fabric-api"><sub><img width="16" src="https://raw.githubusercontent.com/FabricMC/fabric/1.21.10/src/main/resources/assets/fabric/icon.png"></sub><code>Fabric API</code></a>
+      </td>
+    </tr>
+  </thead>
+</table>
+<br>
 
-### ᴬ⃯ ᵦ⃔ Translations
+<a name="translations"></a>
+### <img height="24" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/translate.svg"> Translations
 
-Currently available in:
-- English
-- German
-- Chinese, Simplified (@[qiuqimc](/../../../../qiuqimc) with [PR #8](../../pull/8), added in [`1.7.1`](/../../#171))
-- Ukrainian (@[StarmanMine142](/../../../../StarmanMine142) with [PR #10](../../pull/10), added in [`1.8.1`](/../../#181))
+|Language|Translator|
+|--|--|
+|English||
+|German||
+|Chinese (zh_cn)|[@qiuqimc](/../../../../qiuqimc) with [PR #8](../../pull/8), added in [`1.7.1`](./CHANGELOG_history.md#1.7.1)|
+|Ukrainian|[@StarmanMine142](/../../../../StarmanMine142) with [PR #10](../../pull/10), added in [`1.8.1`](./CHANGELOG_history.md#1.8.1)|
+|Japanese|[@HayaKoh-WeldyAlin](/../../../../HayaKoh-WeldyAlin) with [PR #11](../../pull/11), added in [`1.8.4`](./CHANGELOG_history.md#1.8.4)|
 
-Want to help translate? Feel free to open a PR to the **default branch (`1.21(.1)`)**.
+> [!NOTE]
+> > Want to help translate? If you can, please open a PR to the **default branch** [`1.21(.1)`](../../tree/1.21(.1)).  
+> > Otherwise, simply send your translation via email (contact@pnku.de) or join the [Discord](https://discord.lieonlion.dev).
 
-### Changelog History
+<br>
 
+
+<img height="53" align="left" src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/changelog.svg">  
+
+### Versions
+<a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-### 1.8.3:
-- `1.21.4(-10)`: Update to 1.21.9(10)
-### 1.8.2:
+<a name="1.8.2"></a>
+#### 1.8.2[*](#footnote-*):
 - `1.21(.1)`, `1.21.4`: Fix _Visual Workbenches_ compatibility issue that cause Villagers not being able to recognize the Fletching Table variants
-### 1.8.1:
-- Add Ukrainian translation (Thanks to [Starman](https://modrinth.com/user/StarmanMine142))
-## 1.8.0:
-- `1.21.4`: Add _**Pale Oak** Fletching Table_
-- Update textures to better fit the vanilla Fletching Table and use indexed colors to decrease their file size by almost 50%
-### 1.7.1:
-- Add Simplified Chinese Translation (by @[qiuqimc](https://github.com/qiuqimc))
-- `1.21.4`: Update to 1.21.4
-## 1.7.0:
-- `1.21.2`, `1.21.3`: Update to 1.21.2, 1.21.3
-- Internal changes improving and simplifying intercompability with my other mods
-### 1.6.2:
-- `1.20.1`, `1.20.4`: Fix broken recipes
-### 1.6.1:
-- Fix incompatibility with Visual workbenches (Villagers were unable to use the Fletching Table variants as workstations)
-## 1.6.0:
-- Update the textures to match their palette better to their plank counterparts
-- Add integration with [Quad](https://modrinth.com/mod/quad) `1.3.0⁺`'s block replacement allowing new villages to generate biome-appropriate Fletching Table variants (e.g. Savanna villages' Fletcher houses generate an _**Acacia** Fletching Table_).
-### 1.5.7:
-- Group recipes in recipe book
-- `1.21(.1)⁺`: Fix recipes not unlocking and fletching tables not dropping when mined
-### 1.5.6:
-- Fix mod icon file
-### 1.5.5:
-- `1.20.1`, `1.20.4`: Correct Java version from 21 to 17
-### 1.5.4:
-- `1.20.6`,`1.21`: Fix broken recipes
-<!--CHANGELOG:END-->
 
-> _`The section above is automatically updated with each new release and only includes already published releases.`_
+
+<h2><sub><sub><sup><ins>Download 1.8.2 + 1.21(.1)</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Fletching Tables 1.8.2 + 1.21(.1)" href="https://modrinth.com/mod/more-fletching-tables/version/n3ECpzTv">
+<img width=26 src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a>
+<sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
+<a title="Download (Curseforge):&#10;More Fletching Tables 1.8.2 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-fletching-tables/files/6245460">
+<img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
+</sub></sub></h2>
+
+<!--CHANGELOG:END-->
+<a name="footnote-*"></a>
+> <strong>*</strong><sup>: Most recent version</sup>  
+> _`The version above is automatically updated with the newest release and only after it has been successfully published.`_
+
+<a name="changelog-history"></a>
+> [!TIP]
+> > Looking for changes of previous versions?  
+> > You can find them in the [changelog history](./CHANGELOG_history.md).
+
 ---
 #### Support/Contact
 - Suggestions? Questions? Bug reports?  
