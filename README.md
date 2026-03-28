@@ -61,17 +61,19 @@
 ### Versions
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
-<a name="1.8.2"></a>
-#### 1.8.2[*](#footnote-*):
-- `1.21(.1)`, `1.21.4`: Fix _Visual Workbenches_ compatibility issue that cause Villagers not being able to recognize the Fletching Table variants
+<a name="1.8.4"></a>
+#### 1.8.4[*](#footnote-*):
+- `26.1`: Update to <ins>26.1</ins>
 
+<br></br>
+<sub>License update to [`CC-BY-NC-SA 4.0`](https://creativecommons.org/licenses/by-nc-sa/4.0/) (previously [`MIT`](https://opensource.org/licenses/MIT))</sub>
 
-<h2><sub><sub><sup><ins>Download 1.8.2 + 1.21(.1)</ins>:</sup>&#x200A;
-<a title="Download (Modrinth):&#10;More Fletching Tables 1.8.2 + 1.21(.1)" href="https://modrinth.com/mod/more-fletching-tables/version/n3ECpzTv">
-<img width=26 src="https://img.shields.io/badge/-%20-%230f91?style=flat&logo=modrinth"></a>
+<h2><sub><sub><sup><ins>Download 1.8.4 + 1.20.1</ins>:</sup>&#x200A;
+<a title="Download (Modrinth):&#10;More Fletching Tables 1.8.4 + 1.20.1" href="https://www.modrinth.com/mod/8TnTa9Ui/version/BvmXPh2x">
+<img width=26 src="https://img.shields.io/badge/-%20-%23032a?style=flat&logo=modrinth"></a>
 <sup><img width=7 height=10 src="https://raw.githubusercontent.com/pnk2u/resources/main/ModProjects/shared/pres/icon/separator_v.svg"></sup>
-<a title="Download (Curseforge):&#10;More Fletching Tables 1.8.2 + 1.21(.1)" href="https://www.curseforge.com/minecraft/mc-mods/more-fletching-tables/files/6245460">
-<img width=26 src="https://img.shields.io/badge/--%23f062?style=flat&logo=curseforge"></a>
+<a title="Download (Curseforge):&#10;1.8.4 + 1.20.1 - More Fletching Tables" href="https://www.curseforge.com/minecraft/mc-mods/more-fletching-tables/files/7829174">
+<img width=26 src="https://img.shields.io/badge/--%23302a?style=flat&logo=curseforge"></a>
 </sub></sub></h2>
 
 <!--CHANGELOG:END-->
