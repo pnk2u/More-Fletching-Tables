@@ -3,7 +3,7 @@
   "category": "misc",
   "group": "fletchingtable",
   "key": {
-    "#": "minecraft:birch_planks",
+    "#": "#lolmft:vanilla_fletching_table_planks",
     "@": "minecraft:flint"
   },
   "pattern": [
