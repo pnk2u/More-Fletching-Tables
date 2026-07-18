@@ -2,7 +2,7 @@
 ### 1.9.0:
 - `26.3`:
   - Update to <ins>26.3</ins>
-  - Add _**Poplar** Fletching Table_
+  - Add _**Poplar** Fletching Table_ (Textures by [hunnycakehorse](https://www.modrinth.com/user/hunnycakehorse))
 - Implement _Tag Entry Removal_ in _(Vanilla/)**Birch** Fletching Table_ recipe  
   >  #### What this means:
   > - _(Vanilla/)**Birch** Fletching Tables_ can now be crafted natively with any modded Planks.  
