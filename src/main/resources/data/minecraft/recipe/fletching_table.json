@@ -4,7 +4,7 @@
   "group": "fletchingtable",
   "key": {
     "#": {
-      "item": "minecraft:birch_planks"
+      "tag": "lolmft:vanilla_fletching_table_planks"
     },
     "@": {
       "item": "minecraft:flint"
