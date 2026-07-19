@@ -1,5 +1,5 @@
 <a name="1.9.0"></a>
-### 1.9.0:
+## 1.9.0:
 - `26.3`:
     - Update to <ins>26.3</ins>
     - Add _**Poplar** Fletching Table_ (Textures by [hunnycakehorse](https://www.modrinth.com/user/hunnycakehorse))  
