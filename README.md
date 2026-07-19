@@ -62,7 +62,7 @@
 <a name="most-recent-version"></a>
 <!--CHANGELOG:START-->
 <a name="1.9.0"></a>
-#### 1.9.0[*](#footnote-*):
+### 1.9.0[*](#footnote-*):
 - `26.3`:
   - Update to <ins>26.3</ins>
   - Add _**Poplar** Fletching Table_ (Textures by [hunnycakehorse](https://www.modrinth.com/user/hunnycakehorse))  
