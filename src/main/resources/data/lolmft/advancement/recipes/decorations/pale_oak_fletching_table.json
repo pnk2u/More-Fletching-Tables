@@ -27,7 +27,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "lolmft:pale_oak_fletching_table"
+        "recipes": ["lolmft:pale_oak_fletching_table"]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

@@ -27,7 +27,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "lolmft:bamboo_fletching_table"
+        "recipes": ["lolmft:bamboo_fletching_table"]
       },
       "trigger": "minecraft:recipe_unlocked"
     }

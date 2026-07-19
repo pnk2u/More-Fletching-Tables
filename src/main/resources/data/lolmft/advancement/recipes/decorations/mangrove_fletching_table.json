@@ -27,7 +27,7 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "lolmft:mangrove_fletching_table"
+        "recipes": ["lolmft:mangrove_fletching_table"]
       },
       "trigger": "minecraft:recipe_unlocked"
     }
